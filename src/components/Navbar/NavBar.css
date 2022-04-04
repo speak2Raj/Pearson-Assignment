@@ -1,0 +1,43 @@
+.parent-nav {
+  background-color: rgb(50, 50, 255);
+  color: white;
+  padding: 0px 20px;
+}
+.nav-link {
+  color: white !important;
+  cursor: pointer;
+}
+.logout-btn {
+  display: flex;
+  
+  border: 1px solid white;
+  border-radius: 4px;
+  position: absolute;
+  right: 0;
+}
+.user-img img {
+  border-radius: 50%;
+  width: 8%;
+}
+.user-img {
+  margin: 0px 5%;
+  align-items: flex-end;
+  justify-content: flex-end;
+  text-align: end;
+  display: flex;
+}
+
+@media screen and (max-width: 768px){
+  .logout-btn {
+    justify-content: center;
+    width: 100px;
+  }
+  .navbar-light .navbar-toggler {
+    color: rgb(253, 253, 253);
+    border-color: rgb(255, 255, 255);
+  }
+  .navbar-light .navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+  }
+}

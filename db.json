@@ -1,0 +1,54 @@
+{
+  "contacts": [
+    {
+      "fname": "Surendra Singh",
+      "image": "src/img/user1.png",
+      "date": "30/04/2022",
+      "birthplace": "Kashmir",
+      "email": "surendra@gmail.com",
+      "gender": "Male",
+      "biodata":"Software developers develop software applications using a variety of programming languages, each of which is suitable for slightly different tasks.",
+      "id": 1
+    },
+    {
+      "fname": "Jay Prakash Singh",
+      "image": "src/img/user1.png",
+      "date": "01/01/2000",
+      "birthplace": "Mirzapur",
+      "email": "jay@gmail.co.in",
+      "gender": "Male",
+      "biodata":"Software developers develop software applications using a variety of programming languages, each of which is suitable for slightly different tasks.",
+      "id": 2
+    },
+    {
+      "fname": "Vijay Pratap Singh",
+      "image": "src/img/user1.png",
+      "date": "01/01/1900",
+      "birthplace": "Kolkata",
+      "email": "vijay@gmail.com",
+      "gender": "Male",
+      "biodata":"Software developers develop software applications using a variety of programming languages, each of which is suitable for slightly different tasks.",
+      "id": 3
+    },
+    {
+      "fname": "Ramesh Pawar",
+      "image": "src/img/user1.png",
+      "date": "01/01/1999",
+      "birthplace": "Chennai",
+      "email": "ramesh@gmail.co.in",
+      "gender": "Male",
+      "biodata":"Software developers develop software applications using a variety of programming languages, each of which is suitable for slightly different tasks.",
+      "id": 4
+    },
+    {
+      "fname": "Vishwajeet Singh",
+      "image": "src/img/user1.png",
+      "date": "01/01/2004",
+      "birthplace": "Shimla",
+      "email": "vishwa@gmail.com",
+      "gender": "Male",
+      "biodata":"Software developers develop software applications using a variety of programming languages, each of which is suitable for slightly different tasks.",
+      "id": 5
+    }
+  ]
+}

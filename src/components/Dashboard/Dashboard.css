@@ -1,0 +1,103 @@
+.div {
+  width: 100% !important;
+  padding: 0px;
+  margin: 0px;
+}
+.parent-div {
+  height: 88vh;
+  width: 100% !important;
+  display: inline-flex;
+  background-color: #fff;
+}
+.main-dash-div {
+  box-shadow: 0px 0px 6px 2px rgb(212 207 207 / 81%);
+  /* margin: 25px 0px; */
+  /* padding-bottom: 25px; */
+  overflow: hidden;
+  border-radius: 4px;
+}
+.side-bar {
+  border-right: 1px solid grey;
+  min-height: 70vh;
+}
+.data-div {
+  min-height: 40vh;
+}
+.row {
+  padding: 0px !important;
+  margin: 0px !important;
+}
+.data-sub-div {
+  margin: 10px;
+  box-shadow: 0px 0px 6px 5px rgb(212 207 207 / 81%);
+  min-height: 79vh;
+  background-color: rgba(221, 208, 190, 0.281);
+  border-radius: 4px;
+  width: 100%;
+  /* margin-bottom:15px; */
+}
+.data-head {
+  padding: 6px;
+  border-bottom: 1px solid rgb(212 207 207 / 81%);
+}
+.data-table {
+  margin: 10px;
+  box-shadow: 0px 0px 6px 5px rgb(212 207 207 / 81%);
+
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  vertical-align: middle;
+}
+.data-img img {
+  width: 100%;
+  height: 160px;
+}
+.data-img {
+  min-height: 160px;
+}
+.display-data-div {
+  overflow-y: scroll;
+  max-height: 80vh;
+  padding-bottom: 10px;
+}
+
+.like-button-wrapper::before {
+  content: "";
+  z-index: 1;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  will-change: Blue;
+  transition: Blue 0.3s, transform 0.3s;
+  background-color: grey;
+  box-shadow: 0 0 10px grey;
+  border-radius: 8px;
+}
+
+.like-button-wrapper.liked::before {
+  background-color: grey;
+}
+
+.like-button-wrapper.suffix {
+  opacity: 0;
+  transition: opacity 300ms, transform 300ms;
+  transform: translateX(15px);
+}
+
+.like-button-wrapper.suffix.liked {
+  opacity: 1;
+  transform: translateX(0);
+}
+.btn-div {
+  padding: 4px 0px;
+}
+
+
+@media screen  and (max-width: 768px) {
+  .btn-primary{
+    margin: 3px;
+  }
+}
