@@ -22,13 +22,11 @@ function Favorites(props) {
 
 		if (usersFavourites) {
 			setFavourites(usersFavourites);
-			console.log(usersFavourites, "my favorites");
 		}
 	}, []);
 
 	const saveToLocalStorage = (items) => {
 		localStorage.setItem('react-movie-app-favourites', JSON.stringify(items));
-        console.log(items, "myyyyyy");
 	};
 
     const removeFavouriteUsers = (user) => {
