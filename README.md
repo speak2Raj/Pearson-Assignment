@@ -21,6 +21,6 @@ Step-6 : View Details
 Click View Details Button to see the full details of particular data.
 
 Step-7 : Like or Unlike
-Clik Like icon to add in favourite list. It will stored in localstorage and displayed in Favourite list page
+Click Like icon to add in favourite list. It will stored in localstorage and displayed in Favourite list page
 
 Step-8 : Signout from the App
