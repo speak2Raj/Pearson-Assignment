@@ -14,6 +14,7 @@ function Favorites(props) {
     }
 
 	const [favourites, setFavourites] = useState([]);
+	const uniqueArray = favourites.filter(({ id }, i , _arr) => _arr.findIndex((elem) => elem.id === id ) === i);
 
 	useEffect(() => {
 		const usersFavourites = JSON.parse(
@@ -58,7 +59,7 @@ function Favorites(props) {
                 <div className='display-data-div'>
                     <div className='display-data'>
                         <Row >
-                            { favourites.map( (user, index) => (<Col md={4}>
+                            { uniqueArray.map( (user, index) => (<Col md={4}>
                                         <div className='data-table' align="center">
                                             <div className='data-img'>
                                                 <img src={dataImages.img} alt='display-image' />
