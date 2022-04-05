@@ -44,9 +44,6 @@ function Favorites(props) {
             <NavBar />
         <div className="main-dash-div">
         <div className='parent-div'>
-            {/* <div className="">
-                <Sidebar />
-            </div> */}
             <div className='data-sub-div'>
                 <div className='data-head'>
                     <Row>
