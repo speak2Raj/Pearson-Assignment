@@ -118,7 +118,7 @@ function Dashboard() {
                                     <Row>
                                          <Col md={6}>
                                             <div>
-                                                <Button ><Link  to={`/View/${user.id}`}>View Details</Link></Button>
+                                                <Button ><Link style={{color: "white", textDecoration: "none"}}  to={`/View/${user.id}`}>View Details</Link></Button>
                                             </div>
                                         </Col>
                                         <Col md={6}>
