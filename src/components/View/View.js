@@ -20,7 +20,6 @@ function View() {
     function getUser () {
         axios.get(`https://api.themoviedb.org/3/movie/${id}?api_key=cb75810a73d181fd7f2f338a763994df`)
         .then(res =>{
-        console.log(res, "raj hiiiiiii")
         setUser(res.data);
     })
   }
