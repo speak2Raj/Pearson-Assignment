@@ -29,12 +29,6 @@ function NavBar() {
                             </Nav>
                             </Navbar.Collapse>
                         </Container>
-                        {/* <div>
-
-                            <div className='user-img'>
-                                <div><h6 className='logout-btn' onClick={logout} >Logout</h6></div>
-                            </div>
-                        </div> */}
                     </Navbar>
                 </div>
             </>
