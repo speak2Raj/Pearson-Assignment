@@ -25,7 +25,6 @@ function Dashboard() {
 		const responseJson = await response.json();
         
         setUsers(responseJson.results);
-        console.log(responseJson, "hiiiii")
 	};
 
     useEffect(() => {
@@ -40,7 +39,6 @@ function Dashboard() {
                 return Object.values(item).join('').toLowerCase().includes(searchInput.toLowerCase())
             })
             setFilteredResults(filteredData)
-            console.log(filteredResults, "my data")
             
         }
         else {
@@ -60,7 +58,6 @@ function Dashboard() {
 
     const saveToLocalStorage = (items) => {
 		localStorage.setItem('react-movie-app-favourites', JSON.stringify(items));
-        console.log(items, "myyyyyy");
 	};
 
     const addFavouriteUsers = (user) => {
@@ -68,7 +65,6 @@ function Dashboard() {
 		setFavourites(newFavouriteList);
         if(newFavouriteList){
             saveToLocalStorage(newFavouriteList);
-            console.log(newFavouriteList, "favorite lists")
         }
 	};
 
